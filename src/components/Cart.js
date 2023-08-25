@@ -2,9 +2,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { clearCart } from "../utils/cartSlice";
 import ItemQuantity from "./ItemQuantity";
 import useTotalCartItems from "../utils/useTotalCartItemsl";
-import CartAddress from "./CartAddress";
-import { Link } from "react-router-dom";
-import { isEmptyObject } from "../utils/helper";
+// import CartAddress from "./CartAddress";
+// import { Link } from "react-router-dom";
+// import { isEmptyObject } from "../utils/helper";
 import CartFallback from "./CartFallback";
 import { BiSolidOffer } from "react-icons/bi";
 
